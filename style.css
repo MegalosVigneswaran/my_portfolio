@@ -1,9 +1,25 @@
 body {
-    color: white; 
+    color: rgb(0, 0, 0); 
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#particle-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.content {
+    position: relative;
+    z-index: 1; 
 }
 
 .navbar {
-    background-color: transparent !important;
+    background-color: black !important;
 }
 
 .navbar-nav{
@@ -90,7 +106,6 @@ body {
     border-color: green !important;
 }
 
-/* Additional CSS for small device navbar */
 @media (max-width: 991.98px) {
     .navbar-collapse {
         background-color: white !important;
