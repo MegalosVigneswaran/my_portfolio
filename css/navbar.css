@@ -1,26 +1,11 @@
-body {
-    color: rgb(0, 0, 0); 
-    background-color: black;
-    overflow-x: hidden;
-}
-
-#particle-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1; 
-}
-
 .content {
-    position: relative;
-    z-index: 1; 
-}
-
-.navbar {
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar {
     background-color: black !important;
-}
+  }
 
 .navbar-nav{
     padding-right: 60px;
@@ -123,53 +108,3 @@ body {
         color: black !important;
     }
 }
-
-#typing-animation {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-  }
-.sharel-con {
-    display: inline-block;
-    position: relative;
-    margin-right: 15px;
-    width: 45px;
-    height: 45px;
-    border: 2px solid green;
-    border-radius: 100%;
-    transition: 0.3s ease-in;
-    text-decoration:solid;
-}
-
-.share-logo{
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 20px;
-    color: green !important;  
-    animation: rotate-anti-clockwise 0.3s;
-}
-
-.sharel-con:hover .share-logo{
-    animation: rotate-clockwise 0.3s;
-}
-
-.sharel-con:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: 0.3s ease-out;
-    box-shadow:  
-    0 0 10px #45bb76, 
-    0 0 12px #33cf7cd2, 
-    0 0 15px #33cf7c9a, 
-    0 0 20px #33cf7c54, 
-    0 0 22px #33cf7c41;
-}
-
-@keyframes rotate-clockwise {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-@keyframes rotate-anti-clockwise {
-    0% { transform: rotate(360deg); }
-    100% { transform: rotate(0deg); }
-  }
