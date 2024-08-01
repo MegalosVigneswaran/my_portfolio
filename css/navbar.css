@@ -26,6 +26,7 @@
     position: relative;
     margin-left: 35px;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 
 .navbar-nav .nav-link::after {
