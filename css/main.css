@@ -2,6 +2,49 @@ body {
     background-color: black;
 }
 
+.side-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    background-color: #1e1e1e;
+    border-radius: 30px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    z-index: 9999;
+}
+
+.side-footer p {
+    display: none;
+    margin-top: 15px;
+    text-align: center;
+    color: transparent;
+}
+
+.side-footer i {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+    color: white !important;
+}
+
+.side-footer:hover {
+    width: 375px;
+    box-shadow: 0 0 10px #177e42, 0 0 12px #128347d2;
+    transition: 0s;
+}
+
+.side-footer:hover p{
+    transition-delay: 1s;
+    display: contents;
+    color: white;
+}
+
 #particle-js {
     position: absolute;
     width: 100%;
@@ -84,7 +127,7 @@ body {
 .about-me{
     height: auto;
     background-color: #1e1e1e;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 30px;
     border-radius: 15px;
 }
