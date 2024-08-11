@@ -4,7 +4,6 @@ const I_am = [
   "Opensource contributer",
   "linux enthusiast",
   "AI/ML enthusiast",
-  "DIY creator in elctronics",
 ];
 
 let index = 0;
