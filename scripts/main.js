@@ -1,3 +1,4 @@
+AOS.init();
 const I_am = [
   "python developer",
   "PCB designer",
@@ -24,13 +25,3 @@ function startTyping() {
 
 startTyping();
 
-
-function scrollToSection(className) {
-
-    document.querySelector(className).scrollIntoView({
-
-      behavior: 'smooth'
-
-    });
-
-  }
