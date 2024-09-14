@@ -1,8 +1,6 @@
 AOS.init();
 const I_am = [
   "python developer",
-  "PCB designer",
-  "Opensource contributer",
   "linux enthusiast",
   "AI/ML enthusiast",
 ];
