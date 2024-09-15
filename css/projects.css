@@ -294,14 +294,6 @@ color: #fff;
         margin-left: 10px;
     }
     .viewarea{
-        width: calc(78vw - 38px);
-        height: calc(100vh - 156px);
-        max-height: calc(100vh - 156px);;
-        margin-left: calc(22vw + 20px);
-        margin-top: 25px;
-        justify-content: center;
-        justify-items: center;
-        overflow-y: auto;
         scrollbar-width: thin;
         scrollbar-color: var(--primary-greeny)  #fffdfd;
     }
