@@ -87,6 +87,7 @@
     background-color: #1c1c22;
     color: #00ff99 !important;
     font-weight: normal;
+    cursor: pointer;
 }
 
 .navbar-toggler {
