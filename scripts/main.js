@@ -1,8 +1,11 @@
 AOS.init();
 const I_am = [
   "python developer",
+  "app developer",
+  "tech enthusiast",
+  "3D printing enthusiast",
   "linux enthusiast",
-  "AI/ML enthusiast",
+  "AI&ML enthusiast",
 ];
 
 let index = 0;
