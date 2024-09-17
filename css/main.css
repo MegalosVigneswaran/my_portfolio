@@ -105,7 +105,7 @@ body {
     100% { transform: rotate(0deg); }
   }
 
-.about-me{
+.about{
     height: auto;
     width: 100%;
     background-color: transparent;
@@ -117,14 +117,14 @@ body {
     border-color: #00ff99;
 }
 
-.about-me h2{
+.about h2{
     color: white !important;
     font-weight: bold;
     padding-top: 20px;
     text-align: center;
 }
 
-.about-me p{
+.about p{
     color: white !important;
     text-align: center;
     font-size: 17px;
