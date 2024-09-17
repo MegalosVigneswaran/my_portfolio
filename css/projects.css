@@ -293,26 +293,6 @@ color: #fff;
         width: calc(100vw - 20px);
         margin-left: 10px;
     }
-    .viewarea{
-        scrollbar-width: thin;
-        scrollbar-color: var(--primary-greeny)  #fffdfd;
-    }
-    .viewarea::-webkit-scrollbar {
-        width: 12px;
-      }
-      
-    .viewarea::-webkit-scrollbar-track {
-        background: var(--primary-greeny);
-    }
-    
-    .viewarea::-webkit-scrollbar-thumb {
-        background: #fff0f0;
-        border-radius: 10px;
-    }
-    
-    .viewarea::-webkit-scrollbar-thumb:hover {
-        background: #029258;
-    }
     .project{
         width: 395px;
     }
