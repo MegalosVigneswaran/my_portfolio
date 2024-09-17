@@ -1,8 +1,22 @@
 {
-    "projects":{
+    "Top projects":{
         "Digital democracy" : ["A group of students from the PSG collage asked me to create a voting machine and the voting network to select their chairman and seceratory","https://raw.githubusercontent.com/MegalosVigneswaran/Digital-Democracy/main/webbanner.png"],
         "Radeon master":["Powerful python library to monitor the AMD GPU usage in linux","https://raw.githubusercontent.com/MegalosVigneswaran/RadeonMaster/main/webbanner.jpg"],
         "YT Shorts blocker":["A chrome extension to block the YT shorts effectively","https://raw.githubusercontent.com/MegalosVigneswaran/Shorts-blocker-chrome-extension/main/webbanner.png"],
         "VTrans":["A python library to translate more than 130 langauges","https://ideogram.ai/api/images/direct/vvKKwDpjSOqfB4phXbeXbQ.jpg"]
+    },
+
+    "all":{
+        "projects":{
+            "CursorTailerAnimation":["https://github.com/MegalosVigneswaran/CursorTailerAnimation/blob/main/README.md","https://github.com/MegalosVigneswaran/CursorTailerAnimation"],
+            "Digital democracy":["","https://github.com/MegalosVigneswaran/Digital-Democracy"],
+            "Radeon Master":["https://raw.githubusercontent.com/MegalosVigneswaran/RadeonMaster/main/README.md","https://github.com/MegalosVigneswaran/RadeonMaster"],
+            "YT shorts blocker":["","https://github.com/MegalosVigneswaran/Shorts-blocker-chrome-extension"],
+            "Vtrans":["https://raw.githubusercontent.com/MegalosVigneswaran/vtrans/main/README.md","https://github.com/MegalosVigneswaran/vtrans"]
+        },
+        "Experiments & Blog":{
+            "Latch using MOSFET":["https://raw.githubusercontent.com/MegalosVigneswaran/LATCH-USING-MOSFET/main/README.md","https://github.com/MegalosVigneswaran/LATCH-USING-MOSFET"],
+            "SR Latch using logic gates":["https://raw.githubusercontent.com/MegalosVigneswaran/SR-LATCH/main/README.md","https://github.com/MegalosVigneswaran/SR-LATCH"]
+        }
     }
 }
