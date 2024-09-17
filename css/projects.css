@@ -109,8 +109,43 @@ body {
 }
 
 .pmclosebutton{
+    display: none;
+}
+
+.promenu h5{
+    margin-bottom: 15px;
     margin-left: 10px;
-    opacity: 0;
+    color: rgba(255, 255, 255, 0.913) !important;
+    font-weight: bold;
+}
+
+.nav-project{
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 5px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.nav-project:hover{
+    background-color:#4444533f;
+    transition: 0.2s ease;
+}
+.nav-project:hover p{
+    color: #00b36bb8;
+}
+.nav-project p{
+    color: white;
+    margin-left: 5px;
+}
+
+.blog-tab{
+    margin-top: 10px;
 }
 
 .viewarea {
@@ -297,18 +332,20 @@ color: #fff;
     .promenu {
         width: 0; 
         left: -320px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
     }
 
     .pmb {
         opacity: 1;
     }
-
     .promenu.show {
         width: 320px; 
         left: 0;
     }
     .pmclosebutton{
-        opacity: 1;
+        display: block;
+        margin-left: 10px;
     }
     .viewarea{
         width: calc(100vw - 20px);

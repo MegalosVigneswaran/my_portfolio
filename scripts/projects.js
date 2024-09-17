@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+    const project_tab = document.getElementById('projects-tab');
+    const blog_tab = document.getElementById('blog-tab')
     const projectSpace = document.getElementById('projectspace');
     const jsonURL = 'https://raw.githubusercontent.com/MegalosVigneswaran/my_portfolio/master/data/projects.json';
 
@@ -61,6 +63,37 @@ document.addEventListener("DOMContentLoaded", () => {
                 projectDiv.appendChild(buttonContainer);
 
                 projectSpace.appendChild(projectDiv);
+            }
+            
+            const projects_tab_data = data.all.projects
+            for(const [projectname,access] of Object.entries(projects_tab_data)){
+                const nav_project = document.createElement('div');
+                nav_project.classList.add('nav-project');
+                nav_project.addEventListener('click', function() {
+                    window.location.href = 'https://vicky-techie.web.app/projects.html?doc='+projectname.replace(" ","-");
+                });
+                
+                const project_name = document.createElement('p');
+                project_name.textContent = projectname;
+
+                nav_project.appendChild(project_name);
+                project_tab.appendChild(nav_project);
+
+            }
+            const blog_tab_data = data.all.ExperimentsNBlog
+            for(const [projectname,access] of Object.entries(blog_tab_data)){
+                const nav_project = document.createElement('div');
+                nav_project.classList.add('nav-project');
+                nav_project.addEventListener('click', function() {
+                    window.location.href = 'https://vicky-techie.web.app/projects.html?doc='+projectname.replace(" ","-");
+                });
+
+                const project_name = document.createElement('p');
+                project_name.textContent = projectname;
+
+                nav_project.appendChild(project_name);
+                blog_tab.appendChild(nav_project);
+
             }
         })
         .catch(error => {
