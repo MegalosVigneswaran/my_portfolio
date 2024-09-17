@@ -21,7 +21,6 @@
 
 </head>
 <body>
-
     <nav class="navbar sticky-top navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://vicky-techie.web.app/">Vicky</a>
@@ -31,16 +30,16 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home"><i class="fa-solid fa-house" ></i> Home</a>
+                        <a class="nav-link" href='https://vicky-techie.web.app'><i class="fa-solid fa-house" ></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-me" ><i class="fa-solid fa-user-tie"></i> About</a>
+                        <a class="nav-link" href='https://vicky-techie.web.app/?scrollto=about'; ><i class="fa-solid fa-user-tie"></i> About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills" ><i class="fa-solid fa-screwdriver-wrench"></i> Skills</a>
+                        <a class="nav-link" href='https://vicky-techie.web.app/?scrollto=skills'; ><i class="fa-solid fa-screwdriver-wrench"></i> Skills</a>
                     </li>
-                    <li class="nav-item" onclick="window.location.href='https://vicky-techie.web.app/projects.html';">
-                        <a class="nav-link"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+                    <li class="nav-item" href='https://vicky-techie.web.app/projects.html';">
+                        <a class="nav-link active"><i class="fa-solid fa-diagram-project"></i> Projects</a>
                     </li>                    
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-at"></i> Contact</a>
@@ -56,7 +55,6 @@
             </div>
         </div>
     </nav> 
-
     <div class="flex-container">
         <div class="pmb"> 
             <img src="/images/icons/menu.svg" alt="Icon" class="pmb-icon">
@@ -91,47 +89,11 @@
 
             <h4 style="color: white !important; margin-bottom: 10px; text-align: center; background-color: #1c1c22;">Top projects</h4>
             
-            <div class="projectspace">
-
-                <div class="project">
-                    <div class="image-container" style="width: 100%; height: 180px; overflow: hidden; border-radius: 10px;">
-                        <img src="https://raw.githubusercontent.com/MegalosVigneswaran/RadeonMaster/main/webbanner.png">
-                    </div>
-                    <h5 style="margin-top: 5px; color: rgb(232, 230, 230); font-weight: bold; text-align: center;">Radeon Master</h3>
-                    <p style="margin-top: 5px; margin-right: 5px; margin-left: 5px; text-align: center; color: rgb(192, 192, 192) !important;">Powerful python library to monitor the AMD GPU usage in linux</p>
-                    <center><button class="smb" >KNOW MORE →</button></center>
-                </div>
-
-                <div class="project">
-                    <div class="image-container" style="width: 100%; height: 180px; overflow: hidden; border-radius: 10px;">
-                        <img src="https://raw.githubusercontent.com/MegalosVigneswaran/RadeonMaster/main/webbanner.png">
-                    </div>
-                    <h5 style="margin-top: 5px; color: rgb(232, 230, 230); font-weight: bold; text-align: center;">Radeon Master</h3>
-                    <p style="margin-top: 5px; margin-right: 5px; margin-left: 5px; text-align: center; color: rgb(192, 192, 192) !important;">Powerful python library to monitor the AMD GPU usage in linux</p>
-                    <center><button class="smb" >KNOW MORE →</button></center>
-                </div>
-
-                <div class="project">
-                    <div class="image-container" style="width: 100%; height: 180px; overflow: hidden; border-radius: 10px;">
-                        <img src="https://raw.githubusercontent.com/MegalosVigneswaran/RadeonMaster/main/webbanner.png">
-                    </div>
-                    <h5 style="margin-top: 5px; color: rgb(232, 230, 230); font-weight: bold; text-align: center;">Radeon Master</h3>
-                    <p style="margin-top: 5px; margin-right: 5px; margin-left: 5px; text-align: center; color: rgb(192, 192, 192) !important;">Powerful python library to monitor the AMD GPU usage in linux</p>
-                    <center><button class="smb" >KNOW MORE →</button></center>
-                </div>
-
-            <div class="project">
-                <div class="image-container" style="width: 100%; height: 180px; overflow: hidden; border-radius: 10px;">
-                    <img src="https://raw.githubusercontent.com/MegalosVigneswaran/RadeonMaster/main/webbanner.png">
-                </div>
-                <h5 style="margin-top: 5px; color: rgb(232, 230, 230); font-weight: bold; text-align: center;">Radeon Master</h3>
-                <p style="margin-top: 5px; margin-right: 5px; margin-left: 5px; text-align: center; color: rgb(192, 192, 192) !important;">Powerful python library to monitor the AMD GPU usage in linux</p>
-                <center><button class="smb" >KNOW MORE →</button></center>
-            </div>
-
-               
+            <div class="projectspace" id="projectspace">
+   
             </div>
         </div>
+
     </div>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
