@@ -160,6 +160,7 @@ body {
 }
 
 .skill-d .card h3, .skill-d .card h6 {
+  font-family:'Protest Guerrilla' ;
     color: white !important;
     margin-bottom: 10px;
 }
