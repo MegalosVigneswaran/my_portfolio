@@ -55,6 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 const button = document.createElement('button');
                 button.classList.add('smb');
                 button.textContent = 'KNOW MORE →';
+                button.addEventListener('click', function() {
+                    window.location.href = '/projects/?doc='+projectName.replace(" ","-");
+                });
                 buttonContainer.appendChild(button);
 
                 projectDiv.appendChild(imageContainer);
@@ -70,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const nav_project = document.createElement('div');
                 nav_project.classList.add('nav-project');
                 nav_project.addEventListener('click', function() {
-                    window.location.href = 'https://vicky-techie.web.app/projects.html?doc='+projectname.replace(" ","-");
+                    window.location.href = '/projects/?doc='+projectname.replace(" ","-");
                 });
                 
                 const project_name = document.createElement('p');
@@ -85,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const nav_project = document.createElement('div');
                 nav_project.classList.add('nav-project');
                 nav_project.addEventListener('click', function() {
-                    window.location.href = 'https://vicky-techie.web.app/projects.html?doc='+projectname.replace(" ","-");
+                    window.location.href = '/projects/?doc='+projectname.replace(" ","-");
                 });
 
                 const project_name = document.createElement('p');
